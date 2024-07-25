@@ -1,7 +1,7 @@
 name: Deployment - one job
 on: push
 jobs:
-    lint:
+    lint-test-deploy:
         runs-on: ubuntu-latest
         steps:
             - name: Get code
